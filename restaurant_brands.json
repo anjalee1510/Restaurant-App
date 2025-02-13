@@ -1,0 +1,559 @@
+[{
+  "_id": "1",
+  "name": "FastFood Inc",
+  "cities": [
+    {
+      "_id": "101",
+      "cityName": "Cityville",
+      "locations": [
+        {
+          "_id": "10101",
+          "locationName": "Downtown",
+          "address": "123 Main St, Cityville",
+          "itemAvailabilityList": [
+            {
+              "pId": "1001",
+              "itemName": "Burger",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            },
+            {
+              "pId": "1002",
+              "itemName": "Fries",
+              "isAvailable": false,
+              "reasonUnavailable": "Item expired"
+            }
+          ]
+        },
+        {
+          "_id": "10102",
+          "locationName": "Uptown",
+          "address": "456 Elm St, Cityville",
+          "itemAvailabilityList": [
+            {
+              "pId": "1003",
+              "itemName": "Burger",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            },
+            {
+              "pId": "1004",
+              "itemName": "Fries",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_class": "com.projects.cg.restuarant.model.RestaurantBrand"
+},{
+  "_id": "8",
+  "name": "Global Cuisine",
+  "cities": [
+    {
+      "_id": "201",
+      "cityName": "Cityville",
+      "locations": [
+        {
+          "_id": "20101",
+          "locationName": "Downtown",
+          "address": "123 Main St, Cityville",
+          "itemAvailabilityList": [
+            {
+              "pId": "2010101",
+              "itemName": "Burger",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            },
+            {
+              "pId": "2010102",
+              "itemName": "Fries",
+              "isAvailable": false,
+              "reasonUnavailable": "Item in transit"
+            }
+          ]
+        },
+        {
+          "_id": "20102",
+          "locationName": "Uptown",
+          "address": "456 Elm St, Cityville",
+          "itemAvailabilityList": [
+            {
+              "pId": "2010201",
+              "itemName": "Burger",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            },
+            {
+              "pId": "2010202",
+              "itemName": "Fries",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "202",
+      "cityName": "Metropolis",
+      "locations": [
+        {
+          "_id": "20201",
+          "locationName": "Central Park",
+          "address": "789 Park Ave, Metropolis",
+          "itemAvailabilityList": [
+            {
+              "pId": "2020101",
+              "itemName": "Steak",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            },
+            {
+              "pId": "2020102",
+              "itemName": "Salad",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            }
+          ]
+        },
+        {
+          "_id": "20202",
+          "locationName": "Riverside",
+          "address": "101 River Rd, Metropolis",
+          "itemAvailabilityList": [
+            {
+              "pId": "2020201",
+              "itemName": "Steak",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            },
+            {
+              "pId": "2020202",
+              "itemName": "Salad",
+              "isAvailable": false,
+              "reasonUnavailable": "Item expired"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "203",
+      "cityName": "Gotham",
+      "locations": [
+        {
+          "_id": "20301",
+          "locationName": "Downtown",
+          "address": "123 Gotham St, Gotham",
+          "itemAvailabilityList": [
+            {
+              "pId": "2030101",
+              "itemName": "Burger",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            },
+            {
+              "pId": "2030102",
+              "itemName": "Fries",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            }
+          ]
+        },
+        {
+          "_id": "20302",
+          "locationName": "Midtown",
+          "address": "456 Gotham Ave, Gotham",
+          "itemAvailabilityList": [
+            {
+              "pId": "2030201",
+              "itemName": "Burger",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            },
+            {
+              "pId": "2030202",
+              "itemName": "Fries",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_class": "com.projects.cg.restuarant.model.RestaurantBrand"
+},{
+  "_id": "9",
+  "name": "Urban Bites",
+  "cities": [
+    {
+      "_id": "203",
+      "cityName": "Gotham",
+      "locations": [
+        {
+          "_id": "20301",
+          "locationName": "Downtown",
+          "address": "123 Gotham St, Gotham",
+          "itemAvailabilityList": [
+            {
+              "pId": "2030101",
+              "itemName": "Burger",
+              "isAvailable": false,
+              "reasonUnavailable": "Item expired"
+            },
+            {
+              "pId": "2030102",
+              "itemName": "Fries",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            }
+          ]
+        },
+        {
+          "_id": "20302",
+          "locationName": "Midtown",
+          "address": "456 Gotham Ave, Gotham",
+          "itemAvailabilityList": [
+            {
+              "pId": "2030201",
+              "itemName": "Burger",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            },
+            {
+              "pId": "2030202",
+              "itemName": "Fries",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "204",
+      "cityName": "Star City",
+      "locations": [
+        {
+          "_id": "20401",
+          "locationName": "Downtown",
+          "address": "789 Star St, Star City",
+          "itemAvailabilityList": [
+            {
+              "pId": "2040101",
+              "itemName": "Pizza",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of Stock"
+            },
+            {
+              "pId": "2040102",
+              "itemName": "Pasta",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            }
+          ]
+        },
+        {
+          "_id": "20402",
+          "locationName": "Uptown",
+          "address": "101 Star Ave, Star City",
+          "itemAvailabilityList": [
+            {
+              "pId": "2040201",
+              "itemName": "Pizza",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            },
+            {
+              "pId": "2040202",
+              "itemName": "Pasta",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_class": "com.projects.cg.restuarant.model.RestaurantBrand"
+},{
+  "_id": "10",
+  "name": "World Flavors",
+  "cities": [
+    {
+      "_id": "301",
+      "cityName": "Cityville",
+      "locations": [
+        {
+          "_id": "30101",
+          "locationName": "Downtown",
+          "address": "123 Main St, Cityville",
+          "itemAvailabilityList": [
+            {
+              "pId": "3010101",
+              "itemName": "Burger",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            },
+            {
+              "pId": "3010102",
+              "itemName": "Fries",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            }
+          ]
+        },
+        {
+          "_id": "30102",
+          "locationName": "Uptown",
+          "address": "456 Elm St, Cityville",
+          "itemAvailabilityList": [
+            {
+              "pId": "3010201",
+              "itemName": "Burger",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            },
+            {
+              "pId": "3010202",
+              "itemName": "Fries",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "302",
+      "cityName": "Metropolis",
+      "locations": [
+        {
+          "_id": "30201",
+          "locationName": "Central Park",
+          "address": "789 Park Ave, Metropolis",
+          "itemAvailabilityList": [
+            {
+              "pId": "3020101",
+              "itemName": "Steak",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            },
+            {
+              "pId": "3020102",
+              "itemName": "Salad",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            }
+          ]
+        },
+        {
+          "_id": "30202",
+          "locationName": "Riverside",
+          "address": "101 River Rd, Metropolis",
+          "itemAvailabilityList": [
+            {
+              "pId": "3020201",
+              "itemName": "Steak",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            },
+            {
+              "pId": "3020202",
+              "itemName": "Salad",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "303",
+      "cityName": "Gotham",
+      "locations": [
+        {
+          "_id": "30301",
+          "locationName": "Downtown",
+          "address": "123 Gotham St, Gotham",
+          "itemAvailabilityList": [
+            {
+              "pId": "3030101",
+              "itemName": "Burger",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            },
+            {
+              "pId": "3030102",
+              "itemName": "Fries",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            }
+          ]
+        },
+        {
+          "_id": "30302",
+          "locationName": "Midtown",
+          "address": "456 Gotham Ave, Gotham",
+          "itemAvailabilityList": [
+            {
+              "pId": "3030201",
+              "itemName": "Burger",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            },
+            {
+              "pId": "3030202",
+              "itemName": "Fries",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_class": "com.projects.cg.restuarant.model.RestaurantBrand"
+},{
+  "_id": "11",
+  "name": "Tasty Travels",
+  "cities": [
+    {
+      "_id": "304",
+      "cityName": "Springfield",
+      "locations": [
+        {
+          "_id": "30401",
+          "locationName": "Downtown",
+          "address": "123 Main St, Springfield",
+          "itemAvailabilityList": [
+            {
+              "pId": "3040101",
+              "itemName": "Ice Cream",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            },
+            {
+              "pId": "3040102",
+              "itemName": "Cake",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            }
+          ]
+        },
+        {
+          "_id": "30402",
+          "locationName": "Uptown",
+          "address": "456 Elm St, Springfield",
+          "itemAvailabilityList": [
+            {
+              "pId": "3040201",
+              "itemName": "Ice Cream",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            },
+            {
+              "pId": "3040202",
+              "itemName": "Cake",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "305",
+      "cityName": "Riverdale",
+      "locations": [
+        {
+          "_id": "30501",
+          "locationName": "Riverside",
+          "address": "789 River St, Riverdale",
+          "itemAvailabilityList": [
+            {
+              "pId": "3050101",
+              "itemName": "Salad",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            },
+            {
+              "pId": "3050102",
+              "itemName": "Juice",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            }
+          ]
+        },
+        {
+          "_id": "30502",
+          "locationName": "Harbor View",
+          "address": "101 Harbor Ave, Riverdale",
+          "itemAvailabilityList": [
+            {
+              "pId": "3050201",
+              "itemName": "Salad",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            },
+            {
+              "pId": "3050202",
+              "itemName": "Juice",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "306",
+      "cityName": "Bay City",
+      "locations": [
+        {
+          "_id": "30601",
+          "locationName": "Downtown",
+          "address": "789 Bay St, Bay City",
+          "itemAvailabilityList": [
+            {
+              "pId": "3060101",
+              "itemName": "Shrimp",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            },
+            {
+              "pId": "3060102",
+              "itemName": "Oysters",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            }
+          ]
+        },
+        {
+          "_id": "30602",
+          "locationName": "Uptown",
+          "address": "101 Bay Ave, Bay City",
+          "itemAvailabilityList": [
+            {
+              "pId": "3060201",
+              "itemName": "Shrimp",
+              "isAvailable": false,
+              "reasonUnavailable": "Out of stock"
+            },
+            {
+              "pId": "3060202",
+              "itemName": "Oysters",
+              "isAvailable": true,
+              "reasonUnavailable": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_class": "com.projects.cg.restuarant.model.RestaurantBrand"
+}]
